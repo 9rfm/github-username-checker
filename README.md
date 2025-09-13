@@ -1,6 +1,6 @@
-# Snapchat Username Checker
+# Github Username Checker
 
-A powerful application for checking Snapchat username availability with multiple checking modes and proxy support.
+A powerful application for checking Github username availability with multiple checking modes and proxy support.
 
 ## Features
 
@@ -21,7 +21,7 @@ A powerful application for checking Snapchat username availability with multiple
 - Color-coded results for easy reading
 
 ### 💾 Data Management
-- Save available usernames automatically to `available_snapchat.txt`
+- Save available usernames automatically to `available_Github.txt`
 - Export full results to custom files
 - Session persistence
 
@@ -29,8 +29,8 @@ A powerful application for checking Snapchat username availability with multiple
 
 1. **Clone the repository**:
 ```bash
-git clone https://github.com/9rfm/snapchat-username-checker.git
-cd snapchat-username-checker
+git clone https://github.com/9rfm/github-username-checker.git
+cd Github-username-checker
 ```
 
 2. **Install required dependencies**:
@@ -43,14 +43,6 @@ pip install -r requirements.txt
 tkinter
 requests
 colorama
-```
-
-## Usage
-
-### Basic Usage
-1. Run the application:
-```bash
-python snapchat_checker.py
 ```
 
 2. Select your preferred check mode
@@ -99,7 +91,7 @@ The application automatically fetches free proxies from:
 
 ## Output Files
 
-- `available_snapchat.txt`: Automatically saves all available usernames
+- `available_Github.txt`: Automatically saves all available usernames
 - `res.txt`: Raw API responses for debugging purposes
 - Custom export: Save full results via the "Save Results" button
 
